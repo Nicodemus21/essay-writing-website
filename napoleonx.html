@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+</head>
+<style type="text/css">
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .background-404-wrp {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: #49a8eb;
+        box-shadow: 0px 0px 81px rgba(0, 0, 0, 0.2);
+    }
+    .background-404-wrp img {
+        position: absolute;
+        top: calc(50% - 40px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .background-404-wrp .home-btn {
+        width: 120px;
+        padding: 10px;
+        box-sizing: border-box;
+        color: #ffffff;
+        text-decoration: none;
+        font: 14px "Circe Rounded";
+        text-align: center;
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 90px;
+    }
+    @media all and (max-width: 560px) {
+        .background-404-wrp {
+            width: 360px;
+            height: 360px;
+        }
+        .background-404-wrp .home-btn {
+            bottom: 50px;
+        }
+        .background-404-wrp img {
+            max-width: 80%;
+        }
+    }
+    @media all and (max-width: 390px) {
+        .background-404-wrp {
+            width: 300px;
+            height: 300px;
+        }
+        .background-404-wrp img {
+            max-width: 70%;
+        }
+    }
+</style>
+<body>
+<div class="background-404-wrp">
+    <img src="img/v2/404.png">
+    <a href="index.html" class="home-btn">Home</a>
+</div>
+</body>
+
+</html>
